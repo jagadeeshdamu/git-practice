@@ -16,3 +16,5 @@ jobs:
         run: |
           echo "Build Successful 🚀"
           cat index.txt
+          echo "Checking file exists..."
+          test -f index.txt
