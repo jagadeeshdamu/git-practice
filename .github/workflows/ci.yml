@@ -18,3 +18,8 @@ jobs:
           cat index.txt
           echo "Checking file exists..."
           test -f indexxxxx.txt
+     -  name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker Image
+        run: docker build -t myweb .
