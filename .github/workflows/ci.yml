@@ -17,4 +17,4 @@ jobs:
           echo "Build Successful 🚀"
           cat index.txt
           echo "Checking file exists..."
-          test -f index.txt
+          test -f indexxxxx.txt
